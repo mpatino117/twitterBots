@@ -71,4 +71,8 @@ function postStatus(params) {
 }
 
 
-getPhoto();
+
+
+setInterval(function() {
+    getPhoto()
+}, 43200000)
